@@ -1,3 +1,6 @@
+*{
+    background-color: rgb(172, 169, 173);
+}
 header{
     background: peru;
     border:3px solid rgb(80, 80, 49);
@@ -37,7 +40,7 @@ div{
 }
 
 footer{
-    font-size: 17px;
+    font-size: 150%;
 }
 
 #imgdiv{
@@ -120,6 +123,7 @@ color:greenyellow;
 text-decoration: none;
 font-family: 'Times New Roman', Times, serif;
 font-size: 22px;
+background: rgb(80, 80, 49);
 
 }
 nav ul ul {
@@ -144,6 +148,9 @@ display: inline-block;
 width: auto;
 
 }
+div.icon{
+    font-size: 150%;
+}
 @media only screen and (max-width: 1000px){
 nav ul.nav{
     width: auto;
@@ -167,7 +174,8 @@ color:greenyellow;
 text-decoration: none;
 font-family: 'Times New Roman', Times, serif;
 font-size: 11px;
-
+background: rgb(80, 80, 49);
+padding: 5px;
 }
 nav ul ul li a {
 padding: 3px 5px;
@@ -194,9 +202,7 @@ header{
 body{
     font-size: 13px;
 }
-footer{
-    font-size: 15px;
-}
+
 
 }
 
