@@ -196,6 +196,14 @@ header{
     padding-top: 10px;
 }
 
+.icon a{
+    width: 85%;
+    font-size: 70%;
+}
+footer{
+    width: 100%;
+    font-size: 100%;
+}
 body{
     font-size: 13px;
 }
