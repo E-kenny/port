@@ -1,4 +1,5 @@
 function sendEmail(){
     let body = document.getElementById("body").value
-    window.open('mailto:Ekennyobiasogu@gmail.com?'+'body='+body)
+    let subject = document.getElementById("subject").value
+    window.open('mailto:Ekennyobiasogu@gmail.com?subject='+subject+'&'+'body='+body)
 }
