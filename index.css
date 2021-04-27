@@ -147,9 +147,16 @@ display: inline-block;
 width: auto;
 
 }
-div.icon{
-    font-size: 150%;
+
+.icon a{
+    width: 100%;
+    font-size:200%;
 }
+.footer{
+    width: 20%;
+    margin: auto;
+}
+
 @media only screen and (max-width: 1000px){
 nav ul.nav{
     width: auto;
@@ -203,13 +210,15 @@ header{
 }
 
 .icon a{
-    width: 85%;
-    font-size: 70%;
+    width: 100%;
+    font-size:130%;
 }
 
 body{
     font-size: 13px;
 }
+
+
 
 
 }
