@@ -1,7 +1,6 @@
 header{
-    background: peru;
-    border:3px solid rgb(80, 80, 49);
-    color:black; 
+    background: purple;
+    color:white; 
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-top: none;
     font-size: 20px;
@@ -36,13 +35,14 @@ div{
 .input{
     margin: auto;
     width: 80%;
+    padding: 8px;
+    border-radius: 7px;
 }
 
 
 #imgdiv{
-    background: rgba(151, 142, 119, 0.877);
+    background: purple;
     margin-top: 20px;
-    border: 2px solid peru;
     border-top: none;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -55,7 +55,6 @@ div{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    border: 2px solid peru;
     height:40vw ;
     border-top: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -68,24 +67,23 @@ nav ul.nav{
     justify-content: space-between;
     height: 100px;
     width: auto;
-    background: rgb(80, 80, 49);
+    background: purple;
     align-items: center;
-    border: 2px solid peru;
-    border-bottom: none;
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 
-nav ul li:hover > ul {
+/* nav ul li:hover > ul {
 display: block;
 padding-top: 15px;
-}
+} */
 
-nav ul:after {
+/* nav ul:after {
 content: ""; 
 clear: both; 
 display: block;
-}
+} */
 
 nav ul li {
 float: left;
@@ -94,17 +92,17 @@ list-style-type:none;
 }
 
 nav ul li a:hover {
-color: rgb(255, 0, 234);
+color: pink;
 }
 
 nav ul li a {
 display: inline;
 padding: 20px 20px;
-color:greenyellow; 
+color:white; 
 text-decoration: none;
 font-family: 'Times New Roman', Times, serif;
 font-size: 22px;
-background: rgb(80, 80, 49);
+background: purple;
 
 }
 
@@ -115,7 +113,7 @@ a{
 
 nav ul ul li a {
 padding: 10px 10px;
-color:greenyellow; 
+color:rgb(216, 193, 193); 
 font-size: 20px;
 }	
 nav ul ul li a:hover {
@@ -147,10 +145,9 @@ nav ul.nav{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    background: rgb(80, 80, 49);
+    background: purple;
     align-items: center;
     padding: 5px;
-    border: 2px solid peru;
     border-bottom: none;
 
     
@@ -159,16 +156,16 @@ nav ul li a {
     
 display: inline;
 padding: 10px 10px;
-color:greenyellow; 
+color:white; 
 text-decoration: none;
 font-family: 'Times New Roman', Times, serif;
 font-size: 11px;
-background: rgb(80, 80, 49);
+background: purple;
 padding: 5px;
 }
 nav ul ul li a {
 padding: 3px 5px;
-color:blue; 
+color:rgb(216, 193, 193); 
 font-size: 13px;
 }
 a{
@@ -177,11 +174,9 @@ a{
 }	
 
 header{
-    background: peru;
-    border:3px solid rgb(80, 80, 49);
-    color:black; 
+    background: purple;
+    color:white; 
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-top: none;
     font-size: 18px;
     text-align: center;
     margin:auto;
