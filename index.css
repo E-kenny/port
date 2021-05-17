@@ -1,5 +1,5 @@
 body{
-    font-size: 20px;
+    font-size: 27px;
     font-family: 'Cormorant Garamond', serif;
 }
 header{
@@ -7,7 +7,7 @@ header{
     color:white; 
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-top: none;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     margin:auto;
     width: 60%;
@@ -94,7 +94,7 @@ padding: 20px 20px;
 color:white; 
 text-decoration: none;
 font-family: 'Cormorant Garamond', serif;
-font-size: 22px;
+font-size: 30px;
 
 }
 
@@ -144,7 +144,7 @@ padding: 10px 10px;
 color:white; 
 text-decoration: none;
 font-family: 'Cormorant Garamond', serif;
-font-size: 17px;
+font-size: 24px;
 padding: 5px;
 }
 
@@ -157,7 +157,7 @@ header{
     background:rgb(0, 8, 119);
     color:white; 
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
     margin:auto;
     width: 60%;
@@ -176,7 +176,7 @@ header{
 }
 
 body{
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .fa{
