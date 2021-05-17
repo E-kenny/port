@@ -18,7 +18,8 @@ header{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5%;
     font-family: 'Cormorant Garamond', serif;
-
+    animation-name: example;
+    animation-duration: 7s;
 }
 .header{
     margin: auto;
@@ -53,7 +54,8 @@ div{
     margin-bottom: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 50%;
-
+    animation-name: example;
+    animation-duration: 7s;
     
 }
 
@@ -76,25 +78,15 @@ nav ul.nav{
     background: purple;
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+      
 }
 
-
-/* nav ul li:hover > ul {
-display: block;
-padding-top: 15px;
-} */
-
-/* nav ul:after {
-content: ""; 
-clear: both; 
-display: block;
-} */
 
 nav ul li {
 float: left;
 position:relative;
 list-style-type:none;
+
 }
 
 nav ul li a:hover {
@@ -117,11 +109,7 @@ a{
 
 }
 
-nav ul ul li a {
-padding: 10px 10px;
-color:rgb(216, 193, 193); 
-font-size: 20px;
-}	
+
 nav ul ul li a:hover {
 background:black;
 display: inline-block;
@@ -142,7 +130,11 @@ width: auto;
 .fa{
     padding-left: 15px;
 }
-
+/* The animation code */
+@keyframes example {
+    from {background-color:white; color:black}
+    to {background-color:gray;}
+  }
 
 @media only screen and (max-width: 1000px){
 nav ul.nav{
@@ -169,11 +161,11 @@ font-size: 17px;
 background: purple;
 padding: 5px;
 }
-nav ul ul li a {
+/* nav ul ul li a {
 padding: 3px 5px;
 color:rgb(216, 193, 193); 
 font-size: 13px;
-}
+} */
 a{
     text-decoration: none;
 
