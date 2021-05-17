@@ -16,7 +16,6 @@ header{
     margin-bottom: 5%;
     padding-top: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 5%;
     font-family: 'Cormorant Garamond', serif;
     animation-name: example;
     animation-duration: 7s;
@@ -149,11 +148,7 @@ font-family: 'Cormorant Garamond', serif;
 font-size: 17px;
 padding: 5px;
 }
-/* nav ul ul li a {
-padding: 3px 5px;
-color:rgb(216, 193, 193); 
-font-size: 13px;
-} */
+
 a{
     text-decoration: none;
 
