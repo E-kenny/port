@@ -1,3 +1,7 @@
+body{
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
 header{
     background: purple;
     color:white; 
@@ -13,6 +17,7 @@ header{
     padding-top: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5%;
+    font-family: 'Cormorant Garamond', serif;
 
 }
 .header{
@@ -101,7 +106,7 @@ display: inline;
 padding: 20px 20px;
 color:white; 
 text-decoration: none;
-font-family: 'Times New Roman', Times, serif;
+font-family: 'Cormorant Garamond', serif;
 font-size: 22px;
 background: purple;
 
@@ -159,7 +164,7 @@ display: inline;
 padding: 10px 10px;
 color:white; 
 text-decoration: none;
-font-family: 'Times New Roman', Times, serif;
+font-family: 'Cormorant Garamond', serif;
 font-size: 11px;
 background: purple;
 padding: 5px;
@@ -178,7 +183,7 @@ header{
     background: purple;
     color:white; 
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     margin:auto;
     width: 60%;
@@ -187,6 +192,7 @@ header{
     margin-bottom: 5%;
     padding-top: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Cormorant Garamond', serif;
 
 }
 
@@ -196,7 +202,8 @@ header{
 }
 
 body{
-    font-size: 13px;
+    font-size: 15px;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .fa{
