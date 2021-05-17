@@ -69,7 +69,7 @@ nav ul.nav{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 130px;
+    height: 110px;
     background:white;
     color: black;
     align-items: center;
