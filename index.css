@@ -69,8 +69,9 @@ nav ul.nav{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 100px;
-    background:rgb(0, 8, 119);
+    height: 150px;
+    background:white;
+    color: black;
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       
@@ -85,13 +86,13 @@ list-style-type:none;
 }
 
 nav ul li a:hover {
-color: pink;
+color: blue;
 }
 
 nav ul li a {
 display: inline;
 padding: 20px 20px;
-color:white; 
+color:black; 
 text-decoration: none;
 font-family: 'Cormorant Garamond', serif;
 font-size: 30px;
@@ -119,18 +120,18 @@ a{
 }
 /* The animation code */
 @keyframes example {
-    from {background-color:white; color:black}
-    to {background-color:gray;}
+    from {background-color:green; color:white}
+    to {background-color:greenyellow;}
   }
 
 @media only screen and (max-width: 1000px){
 nav ul.nav{
     width: auto;
-    height: 40px;
+    height: 60px;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    background:rgb(0, 8, 119);
+    background:white;
     align-items: center;
     padding: 5px;
     border-bottom: none;
@@ -141,7 +142,7 @@ nav ul li a {
     
 display: inline;
 padding: 10px 10px;
-color:white; 
+color:black; 
 text-decoration: none;
 font-family: 'Cormorant Garamond', serif;
 font-size: 24px;
