@@ -1,9 +1,9 @@
 body{
     font-size: 20px;
-    font-family: 'Cormorant Garamond', serif;
+    /* font-family: 'Cormorant Garamond', serif; */
 }
 header{
-    background:black;
+    background:rgb(0, 8, 119);
     color:white; 
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-top: none;
@@ -18,7 +18,7 @@ header{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-family: 'Cormorant Garamond', serif;
     animation-name: example;
-    animation-duration: 7s;
+    animation-duration: 5s;
 }
 .header{
     margin: auto;
@@ -46,14 +46,13 @@ div{
 
 
 #imgdiv{
-    background:black;
+    background:rgb(0, 8, 119);
     margin-top: 20px;
     border-top: none;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     animation-name: example;
-    animation-duration: 7s;
-    
+    animation-duration: 5s;
 }
 
 #img1{
@@ -71,7 +70,7 @@ nav ul.nav{
     flex-direction: row;
     justify-content: space-between;
     height: 100px;
-    background:black;
+    background:rgb(0, 8, 119);
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       
@@ -131,7 +130,7 @@ nav ul.nav{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    background:black;
+    background:rgb(0, 8, 119);
     align-items: center;
     padding: 5px;
     border-bottom: none;
@@ -155,7 +154,7 @@ a{
 }	
 
 header{
-    background:black;
+    background:rgb(0, 8, 119);
     color:white; 
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -178,7 +177,7 @@ header{
 
 body{
     font-size: 17px;
-    font-family: 'Cormorant Garamond', serif;
+    /* font-family: 'Cormorant Garamond', serif; */
 }
 
 .fa{
