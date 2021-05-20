@@ -1,5 +1,5 @@
 body{
-    font-size: 27px;
+    font-size: 24px;
     font-family: 'Cormorant Garamond', serif;
     background: linear-gradient(to right, rgb(206, 206, 173), rgb(228, 215, 215) , rgb(206, 206, 173));
 }
@@ -72,7 +72,6 @@ nav ul.nav{
     justify-content: space-between;
     height: 110px;
     background:white;
-    color: black;
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       
@@ -119,6 +118,14 @@ a{
 .fa{
     padding-left: 15px;
 }
+
+nav{
+    top: 0px;
+    position: sticky;
+
+}
+
+
 /* The animation code */
 @keyframes example {
     /* from {background-color:white; color:black}
