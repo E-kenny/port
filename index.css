@@ -45,6 +45,12 @@ div{
     padding: 8px;
 }
 
+.inputButton{
+    
+    padding: 5px;
+
+}
+
 
 #imgdiv{
     background:rgb(164, 170, 245);
@@ -124,6 +130,7 @@ nav{
     position: sticky;
 
 }
+
 
 
 /* The animation code */
