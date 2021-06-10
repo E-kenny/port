@@ -25,6 +25,10 @@ header{
     margin: auto;
     width: 50%;
 }
+div ul{
+    margin: auto;
+    width: 18%;
+}
 
 p{
     margin: auto;
@@ -81,7 +85,7 @@ a{
 }
 
 .footer{
-    width: 20%;
+    width: 30%;
     margin: auto;
 }
 
@@ -127,7 +131,7 @@ a{
   100% {background-color:rgb(164, 170, 245); color:black; left:0px; top:0px;}
   }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 767px){
 
 
 a{
@@ -165,10 +169,16 @@ body{
 }
 
 .footer{
-    width: 45%;
+    width: 50%;
     margin: auto;
 }
 
 }
 
-    
+@media only screen and (max-width: 375px){
+    .footer{
+        width: 75%;
+        margin: auto;
+    }
+
+}
