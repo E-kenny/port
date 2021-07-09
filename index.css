@@ -1,14 +1,13 @@
 body{
     margin: 0;
     font-size: 24px;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Noto Serif JP', serif;
     background: linear-gradient(to right, rgb(206, 206, 173), rgb(228, 215, 215) , rgb(206, 206, 173));
 }
 header{
     background:rgb(164, 170, 245);
     color:black; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-top: none;
+    font-family: 'Noto Serif JP', serif;    border-top: none;
     font-size: 30px;
     text-align: center;
     margin:auto;
@@ -18,7 +17,7 @@ header{
     margin-bottom: 5%;
     padding-top: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Noto Serif JP', serif;
     animation-name: example;
     animation-duration: 5s;
 }
@@ -140,7 +139,7 @@ a{
 header{
     background:rgb(164, 170, 245);
     color:black; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Noto Serif JP', serif;
     font-size: 24px;
     text-align: center;
     margin:auto;
@@ -150,7 +149,7 @@ header{
     margin-bottom: 5%;
     padding-top: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Noto Serif JP', serif;
 
 }
 
