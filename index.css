@@ -140,7 +140,7 @@ header{
     background:rgb(164, 170, 245);
     color:black; 
     font-family: 'Noto Serif JP', serif;
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
     margin:auto;
     width: 60%;
@@ -159,7 +159,7 @@ header{
 }
 
 body{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .fa{
